@@ -27,7 +27,4 @@ for item in xml.findAll('link')[3:]:
         print("Link already in database")
 
 
-conn.close()    
-
-
-
+conn.close()
