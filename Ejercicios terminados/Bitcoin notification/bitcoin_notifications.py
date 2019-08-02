@@ -18,6 +18,6 @@ def main():
     requests.post(IFTTT_WEBHOOKS_URL)
 
     time.sleep(45)  # Sleep for 5 minutes (for testing purposes you can set it to a lower number)
-    print ("Sleep")
+
 if __name__ == '__main__':
     main()
