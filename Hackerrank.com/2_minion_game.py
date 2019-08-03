@@ -11,24 +11,23 @@ def minion_game(string):
         while f < l+1:
             substring = string[i:f]
             
-            
             if len(substring) > 0:
                 first = substring[0]
 
                 #Detectamos si la primera letra de la substring es vocal o consonante
                 if first in ('AEIOU'):
                     scorea += 1
-                    print (substring)
-                    print (txta.format(scorea)) 
+                    #print (substring)
+                    #txta = "Kevin {}"
+                    #print (txta.format(scorea)) 
                 
                 else:
                     scoreb += 1
-                    txtb = "Stuart {}"
-                    print (substring)
-                    print (txtb.format(scoreb))
-                f += 1
-            else:
-                f += 1
+                    #txtb = "Stuart {}"
+                    #print (substring)
+                    #print (txtb.format(scoreb))
+            f += 1
+            
         
         #Reiniciamos la variable f y sumamos la variable i
         f = 1
