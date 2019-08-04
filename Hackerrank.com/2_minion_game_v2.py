@@ -5,7 +5,7 @@ def minion_game(string):
     l = len(string)
     scoreb = 0
     scorea = 0
-    kset = {""}
+    kset ={""}
     sset ={""} 
 
     #Generación de substrings
@@ -22,10 +22,16 @@ def minion_game(string):
                     if first in ('AEIOU'):
                         sset.add(substring)
                         scorea = scorea + string.count(substring)
+                        #print(substring)
+                        #txta = "Kevin +{}, total {}"
+                        #print (txta.format(string.count(substring),scorea))
                         
                     else:
                         kset.add(substring)
                         scoreb = scoreb + string.count(substring)
+                        #print(substring)
+                        #txtb = "Stuart +{}, total {}"  
+                        #print (txtb.format(string.count(substring),scoreb))
 
                 f += 1
             
@@ -43,5 +49,10 @@ def minion_game(string):
         txtb = "Stuart {}"
         print (txtb.format(scoreb))
  
+ 
+
+if __name__ == '__main__':
+    s = input()
+    minion_game(s)
 
 if __name__ == '__main__':
