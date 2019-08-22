@@ -1,7 +1,7 @@
 This script has been made for traking the time of different processes and people. 
 
 How it works:
-	1.- A macro, records the time of the day and the starting time when you press "Empezar".
+	\n 1.- A macro, records the time of the day and the starting time when you press "Empezar".
 	2.- Once you click on "Terminar" it records again the time and calculate de difference.
 	3.- In the reporting tab yoy can find the time of the task.
 
