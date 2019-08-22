@@ -1,12 +1,12 @@
 <h1>Task tracker</h1>
 <p>This script has been made for traking the time of different processes and people.</p>
-<p>How it works:</p>
+<h4>How it works:</h4>
 <ul>
 <li>A macro, records the time of the day and the starting time when you press "Empezar".</li>
 <li>Once you click on "Terminar" it records again the time and calculate de difference.</li>
 <li>In the reporting tab yoy can find the time of the task.</li>
 </ul>
-<p>Additional info:</p>
+<h4>Additional info:</h4>
 <ul>
 <li>You can define a bunch of tasks and several names.</li>
 <li>You can measure differents procceses at the same time.</li>
